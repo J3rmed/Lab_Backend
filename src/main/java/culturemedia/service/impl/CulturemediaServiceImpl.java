@@ -1,10 +1,11 @@
-package culturemedia.service;
+package culturemedia.service.impl;
 
 import culturemedia.model.Video;
 import culturemedia.model.View;
 import culturemedia.exception.CulturemediaException;
 import culturemedia.repository.VideoRepository;
 import culturemedia.repository.ViewsRepository;
+import culturemedia.service.CulturemediaService;
 
 import java.util.List;
 
