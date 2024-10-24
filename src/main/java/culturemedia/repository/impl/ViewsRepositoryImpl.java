@@ -6,7 +6,7 @@ import java.util.List;
 import culturemedia.model.View;
 import culturemedia.repository.ViewsRepository;
 
-public class ViewsRepositoryImpl implements ViewsRepository {
+public abstract class ViewsRepositoryImpl implements ViewsRepository {
 
     private final List<View> views;
 
