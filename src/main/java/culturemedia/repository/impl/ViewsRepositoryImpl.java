@@ -10,6 +10,7 @@ public class ViewsRepositoryImpl implements ViewsRepository {
 
     private final List<View> views;
 
+    @Repository
     public ViewsRepositoryImpl() {
         this.views = new ArrayList<>();
     }
