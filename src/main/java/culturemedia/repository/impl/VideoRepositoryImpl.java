@@ -6,6 +6,7 @@ import java.util.List;
 import culturemedia.model.Video;
 import culturemedia.repository.VideoRepository;
 
+@Repository
 public class VideoRepositoryImpl implements VideoRepository {
 
     private final List<Video> videos;
